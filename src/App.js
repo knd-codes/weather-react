@@ -5,25 +5,22 @@ import Weather from "./Weather.js";
 export default function App() {
   return (
     <div className="App">
-      {" "}
       <div className="container"></div>
-      <h1>Weather App</h1>
-      <Weather defaultCity="Paris" />
+      <h1>Krista's Weather App</h1>
+      <Weather defaultCity="Dallas" />
       <footer>
-        Project was coded by Krista Gonzalez,
-          {" "}
-          open-sourced on GitHub
+        Project was coded by Krista Gonzalez, open-sourced on GitHub
         <a
-          href="https://github.com/knd-codes"
+          href="https://github.com/knd-codes/weather-react.git"
           target="_blank"
           rel="noreferrer"
         >
         </a>
-        and{" "}
+       {" "} and {" "}
         <a
           href=""
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
           hosted on Netlify
         </a>

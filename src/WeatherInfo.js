@@ -13,7 +13,7 @@ export default function WeatherInfo(props) {
         </li>
         <li className="text-capitalize">{props.data.description}</li>
       </ul>
-      <div className="row mt-3">
+      <div className="row mt-7">
         <div className="col-6">
           <div className="clearfix">
             <div className="float-left">
@@ -23,7 +23,7 @@ export default function WeatherInfo(props) {
               />
             </div>
 
-            <div className="float-left">
+            <div className="col-10">
               <span className="temperature">
                 <WeatherTemperature celsius={props.data.temperature} />
               </span>
